@@ -15,6 +15,7 @@
 		778BE4E92B46AA050036D62A /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778BE4E82B46AA050036D62A /* LandmarksUITests.swift */; };
 		778BE4EB2B46AA050036D62A /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778BE4EA2B46AA050036D62A /* LandmarksUITestsLaunchTests.swift */; };
 		778BE4F82B46AE220036D62A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778BE4F72B46AE220036D62A /* CircleImage.swift */; };
+		778BE4FA2B46AEC80036D62A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778BE4F92B46AEC80036D62A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		778BE4E82B46AA050036D62A /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		778BE4EA2B46AA050036D62A /* LandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		778BE4F72B46AE220036D62A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		778BE4F92B46AEC80036D62A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		778BE4CB2B46AA040036D62A /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				778BE4F92B46AEC80036D62A /* MapView.swift */,
 				778BE4CC2B46AA040036D62A /* LandmarksApp.swift */,
 				778BE4CE2B46AA040036D62A /* ContentView.swift */,
 				778BE4D02B46AA050036D62A /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				778BE4CF2B46AA040036D62A /* ContentView.swift in Sources */,
+				778BE4FA2B46AEC80036D62A /* MapView.swift in Sources */,
 				778BE4CD2B46AA040036D62A /* LandmarksApp.swift in Sources */,
 				778BE4F82B46AE220036D62A /* CircleImage.swift in Sources */,
 			);
@@ -439,7 +443,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoooz.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,7 +479,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoooz.Landmarks;
 				PRODUCT_NAME = "$(TARGET_NAME)";
